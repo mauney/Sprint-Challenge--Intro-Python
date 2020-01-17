@@ -1,3 +1,6 @@
 .vscode
 *.sw[op]
 src/comp/__pycache__/comp.cpython-37.pyc
+src/oop/__pycache__/oop1.cpython-37.pyc
+src/oop/__pycache__/oop2.cpython-37.pyc
+src/*/__pycache__/*
