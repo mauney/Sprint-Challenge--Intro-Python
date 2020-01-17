@@ -1,2 +1,3 @@
 .vscode
 *.sw[op]
+src/comp/__pycache__/comp.cpython-37.pyc
