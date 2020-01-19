@@ -17,3 +17,30 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+class Vehicle:
+    # Vehicle is the base class, if by base class one means the highest class
+    # in the method resolution order for the classes under consideration.
+    pass
+
+# Flight Vehciles
+
+class FlightVehicle(Vehicle):
+    pass
+
+class Starship(FlightVehicle):
+    pass
+
+class Airplane(FlightVehicle):
+    pass
+
+# Ground Vehicles
+
+class GroundVehicle(Vehicle):
+    pass
+
+class Car(GroundVehicle):
+    pass
+
+class Motorcycle(GroundVehicle):
+    pass
